@@ -75,6 +75,63 @@ header p{
     min-width: 240px;
     text-align: center;
 }
+
+/*--Cards--*/
+.cardscontainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.cards header{
+    background-color: hsl(300, 43%, 22%);
+    border-radius: 10px;
+    max-width: 330px;
+    height: 250px;
+    padding: 37px;
+    margin: 16px 24px 0 24px;
+    color: hsl(300, 24%, 96%);
+    font-size: 12px;
+    display: grid;
+    grid-template-columns: 1fr 10fr;
+    align-items: center;
+    gap: 20px;
+}
+
+.cards img.profilepic{
+    border-radius: 50%;
+    width: 50px;
+    margin-right: 20px;
+}
+
+.cards .user-info{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
+}
+
+.cards .name{
+    font-weight: 700;
+    grid-column: 2 / 3;
+}
+
+.cards .status{
+    color: hsl(333, 80%, 67%);
+    grid-column: 2 / 3;
+}
+
+.cards p{
+    color: hsl(300, 24%, 96%);
+    font-weight: 500;
+    line-height: 20px;
+    grid-column: 1 / 3;
+    text-align: justify;
+    margin: 0%;
+}
+
 /*--Footer--*/
 .attribution {
         font-size: 11px;
