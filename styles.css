@@ -211,6 +211,9 @@ header p{
         grid-column: 1 / 6;
         justify-self: center;
     }
+    .starscontainer {
+        grid-column: 6 / -1;
+    }
     .cardscontainer {
         grid-column: 1 / -1;
     }
